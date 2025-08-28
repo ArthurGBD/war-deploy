@@ -1,0 +1,7 @@
+Deploying a simple web application into Tomcat webserver using Bamboon Deploy Tomcat Application Task
+
+1. Build a simple web application and create a WAR file
+2. Install Tomcat webserver and configure Manager users for deploymentin conf/tomcat-users.xml
+3. create a Bamboo Build plan to checkout the code and build to generate a WAR file
+4. Create a deployment project that deploys the WAR file to the Tomcat application
+
